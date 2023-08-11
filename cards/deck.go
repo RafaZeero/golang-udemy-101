@@ -17,7 +17,7 @@ func newCard(rank string, suit string) string {
 func newDeck() deck {
 	cards := deck{}
 	ranks := []string{"Ace", "Two", "Three", "Four"}
-	suits := []string{"Heart", "Diamond", "Club", "Spade"}
+	suits := []string{"Hearts", "Diamonds", "Clubs", "Spades"}
 
 	for _, suit := range suits {
 		for _, rank := range ranks {
