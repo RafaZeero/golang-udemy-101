@@ -31,3 +31,8 @@ func (d deck) print() {
 		fmt.Println(idx, card)
 	}
 }
+
+func deal(d deck, handSize int) (deck, deck) {
+	/** Returns TOTAL cards for handsize, REMAINING cards */
+	return d[:handSize], d[handSize:]
+}
