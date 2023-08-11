@@ -1,17 +1,13 @@
 package main
 
-import "fmt"
-
 func main() {
-	// deck := newDeck()
+	deck := newDeck()
 
-	// hand, remainingCards := deal(deck, 5)
+	hand, remainingCards := deal(deck, 5)
 
-	// hand.print()
-	// remainingCards.print()
+	hand.print()
+	remainingCards.print()
 
-	henlo := "Henlo"
-
-	fmt.Println([]byte(henlo))
+	deck.toString()
 	return
 }
