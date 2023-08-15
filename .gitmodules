@@ -1,0 +1,3 @@
+[submodule "go-even-or-odds"]
+	path = go-even-or-odds
+	url = git@github.com:RafaZeero/go-even-or-odds.git
