@@ -4,3 +4,6 @@
 [submodule "go-structs"]
 	path = structs
 	url = git@github.com:RafaZeero/go-structs.git
+[submodule "maps"]
+	path = maps
+	url = git@github.com:RafaZeero/go-maps.git
