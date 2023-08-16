@@ -7,3 +7,6 @@
 [submodule "maps"]
 	path = maps
 	url = git@github.com:RafaZeero/go-maps.git
+[submodule "interfaces"]
+	path = interfaces
+	url = git@github.com:RafaZeero/go-interfaces.git
