@@ -10,3 +10,6 @@
 [submodule "interfaces"]
 	path = interfaces
 	url = git@github.com:RafaZeero/go-interfaces.git
+[submodule "http"]
+	path = http
+	url = git@github.com:RafaZeero/go-http.git
